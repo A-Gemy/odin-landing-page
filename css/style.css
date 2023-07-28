@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
+
 *,
 *:before,
 *:after {
@@ -114,14 +115,6 @@ footer {
   margin-bottom: 1.8rem;
 }
 
-.hero .hero-img {
-  flex: 0 0 35%;
-}
-
-.hero-img img {
-  max-width: 100%;
-}
-
 button {
   font-size: 1.8rem;
   font-weight: bold;
@@ -135,4 +128,75 @@ button {
 
 button:hover {
   background-color: #2a70e1;
+}
+
+.hero .hero-img {
+  flex: 0 0 35%;
+}
+
+/***************
+  Start main
+****************/
+main h2 {
+  color: #1f2937;
+  font-size: 3.6rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 4.8rem 0;
+}
+
+main .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  margin-bottom: 8rem;
+}
+
+.info .box {
+  padding: 2rem 2rem 1.2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  flex: 0 1 300px;
+  /* background-color: #82ace8; */
+}
+
+.info .img {
+  border-radius: 12px;
+  margin-bottom: 1.2rem;
+}
+
+.box .box-content {
+  color: #1f2937;
+  margin-bottom: 1rem;
+  padding: 0 0.4rem;
+}
+
+.box .box-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.box .box-content h3 span {
+  color: #d4d4d4;
+  font-size: 3.2rem;
+  margin-right: 3px;
+}
+
+.box .box-content p {
+  font-size: 1.6rem;
+  color: #555;
+}
+
+.box .box-content a {
+  display: block;
+  color: #2e77eb;
+  font-size: 1.6rem;
+  text-align: right;
+  margin: 2rem 0 1.6rem 2.5rem;
+  transition: 0.3s;
+}
+
+.box .box-content a:hover {
+  color: #174ca1;
 }
